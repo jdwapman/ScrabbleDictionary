@@ -1,0 +1,30 @@
+1) Download all files to a folder on your hard drive
+
+2) To launch the program, navigate to the program folder with a terminal application.
+
+3) To launch the program, type ./scrabble.out inputFileName
+
+The scrabble.out program takes a .txt file as an input arguement. The text file should contain strings of letters to check against the dictionary provided in the words.txt file.
+
+All input strings must be at most 7 characters long.
+To insert a wildcard, use a space.
+
+The program will return all valid words, sorted in descending order by point value.
+
+Ex: input1.txt
+asdfhiu
+asnain
+asdkfjs
+asdfas
+cat asd
+asdkljasdkjlbkljh
+asd
+
+./scrabble.out input1.txt
+11 asdfhiu: fish
+ 4 asnain: ani inn sin
+ 7 asdkfjs: ask fad
+ 7 asdfas: fad
+ 7 cat asd: cadet dicta ducat scald
+ 0 asdkljasdkjlbkljh: No words found.
+ 4 asd: sad
